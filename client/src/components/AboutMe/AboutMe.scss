@@ -1,0 +1,59 @@
+.about-me {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about-me-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  h1 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    margin-bottom: 5px;  
+    font-size: 120px;
+    @media screen and (max-width: 800px) {
+      font-size: 60px;
+    }
+    span {
+      font-size: 200px;
+      @media screen and (max-width: 800px) {
+        font-size: 90px;
+      }
+    }
+  }
+  h5 {
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    margin: 0;
+    @media screen and (max-width: 800px) {
+      font-size: 20px;
+    }
+  }
+}
+
+.about-me-img {
+  height: 500px;
+  @media screen and (max-width: 800px) {
+    height: 300px;
+  }
+}
+
+.about-info {
+  text-align: center;
+  margin-top: 50px;
+  .about-info-q {
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .about-info-a {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,29 @@
+.skills {
+  padding: 20px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.skills-title {
+  color: #ddcbcb;
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 5px;  
+  font-size: 120px;
+  @media screen and (max-width: 800px) {
+    font-size: 60px;
+  }
+  span {
+    font-size: 200px;
+    @media screen and (max-width: 800px) {
+      font-size: 90px;
+    }
+  }
+}
+
+.skills-icons {
+  @media screen and (max-width: 1000px) {
+    display: none;
+  }
+}
