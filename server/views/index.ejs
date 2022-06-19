@@ -1,0 +1,22 @@
+<%- include('./partials/header.ejs') -%>
+
+    <div class="container">
+
+        <div class="jumbotron">
+
+      <% if(title == 'Home') { %>
+          <%- include('./partials/content.ejs') -%>
+      <% } else if(title == 'Buisness List') { %>
+        <%- include('./content/buisness-list.ejs') -%> 
+      <% } else if(title == 'Add Contact') { %>
+        <%- include('./content/add-buisness.ejs') -%> 
+      <% } else if(title == 'Edit Buisness') { %>
+        <%- include('./content/edit-buisness.ejs') -%> 
+      <% } %>
+</div>
+</div>
+    
+<%- include('./partials/footer.ejs') -%>
+    
+
+    
